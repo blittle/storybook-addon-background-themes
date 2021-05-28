@@ -1,7 +1,7 @@
 {
-  "name": "storybook-addon-backgrounds-theme",
-  "version": "0.0.1",
-  "description": "Switch backgrounds to view components in different settings",
+  "name": "storybook-addon-background-themes",
+  "version": "0.1.0",
+  "description": "Switch between themes based on CSS custom properties",
   "keywords": [
     "addon",
     "background",
@@ -10,18 +10,13 @@
     "essentials",
     "design"
   ],
-  "homepage": "https://github.com/storybookjs/storybook/tree/master/addons/backgrounds",
+  "homepage": "https://github.com/blittle/storybook-addon-background-themes",
   "bugs": {
-    "url": "https://github.com/storybookjs/storybook/issues"
+    "url": "https://github.com/blittle/storybook-addon-background-themes/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/storybookjs/storybook.git",
-    "directory": "addons/backgrounds"
-  },
-  "funding": {
-    "type": "opencollective",
-    "url": "https://opencollective.com/storybook"
+    "url": "git@github.com:blittle/storybook-addon-background-themes.git"
   },
   "license": "MIT",
   "author": "Bret Little",
@@ -71,17 +66,5 @@
     "react-dom": {
       "optional": true
     }
-  },
-  "publishConfig": {
-    "access": "public"
-  },
-  "gitHead": "75c1cba133eab8c39af23b5e35426adbb57692ad",
-  "sbmodern": "dist/modern/index.js",
-  "storybook": {
-    "displayName": "Backgrounds",
-    "icon": "https://user-images.githubusercontent.com/263385/101991667-479cc600-3c7c-11eb-96d3-410e936252e7.png",
-    "unsupportedFrameworks": [
-      "react-native"
-    ]
   }
 }
